@@ -1,0 +1,45 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 280px);
+  grid-gap: 20px;
+}
+
+.cardContainer {
+  border: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.card .title {
+  margin-bottom: 0;
+}
+
+.cardButtons {
+  display:flex;
+  justify-content: space-around;
+}
+
+.notShow {
+  display: none;
+}
+
+.cardRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.cardRow button {
+  padding: 4px 10px;
+}
